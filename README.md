@@ -22,5 +22,7 @@ You can also specify an `id` query option to tag the output:
 ```js
 'css!debug?id=SASS!sass'
 ```  
----  
+
+>  &nbsp;
+
 Created by [Ian Kennington Walter](http://iankwalter.com)
