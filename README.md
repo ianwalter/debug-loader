@@ -23,6 +23,6 @@ You can also specify an `id` query option to tag the output:
 'css!debug?id=SASS!sass'
 ```  
 
->  &nbsp;
+&nbsp;
 
 Created by [Ian Kennington Walter](http://iankwalter.com)
