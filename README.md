@@ -1,5 +1,5 @@
 # debug-loader
-A Webpack loader that logs source to your console for debugging purposes.
+A Webpack loader that allows you to debug your loader chain more easily.
 
 ## Installation
 
@@ -11,17 +11,23 @@ npm install debug-loader --save-dev
 
 ## Usage
 
-Just stick it into the loader chain!
+Stick it into the loader chain and specify a query option:
 
 ```js
-'css!debug!sass'
+'css!debug?source!sass'
 ```
 
-You can also specify an `id` query option to tag the output:
+### Available Query Options
 
+* `source=value` &mdash; Outputs the source from the last loader. If you specify
+a value it will be used to identify the log output.
+
+* `timer=value` &mdash; Outputs the amount of time elapsed between two debug
+loaders. If you specify a value it will be used to identify the timer.
 ```js
-'css!debug?id=SASS!sass'
-```  
+'debug?time=SASS!sass!debug?time=SASS'
+// => --- SASS: 3095ms.
+```
 
 &nbsp;
 
