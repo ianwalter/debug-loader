@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "A Webpack loader that logs source to your console for debugging purposes.",
   "homepage": "https://github.com/ianwalter/debug-loader",
-  "repository": "ianwalter/debug-loader",
+  "repository" : {
+    "type" : "git",
+    "url" : "git@github.com:ianwalter/debug-loader.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
