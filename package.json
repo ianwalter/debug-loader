@@ -1,11 +1,11 @@
 {
   "name": "debug-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Webpack loader that logs source to your console for debugging purposes.",
   "homepage": "https://github.com/ianwalter/debug-loader",
-  "repository" : {
-    "type" : "git",
-    "url" : "git@github.com:ianwalter/debug-loader.git"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ianwalter/debug-loader.git"
   },
   "main": "index.js",
   "scripts": {
