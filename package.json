@@ -9,11 +9,20 @@
   },
   "main": "index.js",
   "scripts": {
+    "build:example": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "loader-utils": "^0.2.12"
+    "babel-preset-env": "^1.6.1",
+    "loader-utils": "^0.2.12",
+    "uglifyjs-webpack-plugin": "^1.2.2"
   },
   "author": "Ian Kennington Walter <public@iankwalter.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10"
+  }
 }
