@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/debug-loader",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A Webpack loader that logs source to your console for debugging purposes.",
   "main": "index.js",
   "scripts": {
