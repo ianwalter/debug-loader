@@ -8,12 +8,21 @@
     "example": "webpack",
     "test": "bff"
   },
-  "author": "Ian Kennington Walter <public@iankwalter.com>",
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "keywords": [
+    "webpack",
+    "loader",
+    "debug",
+    "log"
+  ],
   "license": "SEE LICENSE IN LICENSE",
   "homepage": "https://github.com/ianwalter/debug-loader",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ianwalter/debug-loader.git"
+    "url": "git+ssh://git@github.com/ianwalter/debug-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianwalter/debug-loader/issues"
   },
   "dependencies": {
     "@ianwalter/print": "^2.1.0",
