@@ -2,8 +2,10 @@ const loaderUtils = require('loader-utils')
 const { print } = require('@ianwalter/print')
 
 module.exports = function (source) {
-  var query = loaderUtils.parseQuery(this.query)
-  var id = query.id || ''
+  let id = this._module.rawRequest
+  if (this.query) {
+    id = loaderUtils.parseQuery(this.query).id
+  }
 
   if (this.cacheable) {
     this.cacheable()
