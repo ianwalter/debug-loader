@@ -1,4 +1,5 @@
-var loaderUtils = require('loader-utils')
+const loaderUtils = require('loader-utils')
+const { print } = require('@ianwalter/print')
 
 module.exports = function (source) {
   var query = loaderUtils.parseQuery(this.query)
@@ -8,9 +9,15 @@ module.exports = function (source) {
     this.cacheable()
   }
 
-  console.log('--- START', id)
-  console.log(source)
-  console.log('--- END', id)
+  if (source) {
+    console.log('')
+    print.log('🏁', 'START', id, '\n')
+    print.log(false, source, '\n')
+    print.log('🏁', 'END', id)
+    console.log('')
+  } else {
+    print.error('Empty source!', source)
+  }
 
   return source
 }

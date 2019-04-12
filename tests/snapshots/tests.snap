@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`debug-loader 1`] = `
+"
+🏁  START js 
+
+    export default () => {
+      console.log('Hello World!')
+    }
+ 
+
+🏁  END js
+"
+`;

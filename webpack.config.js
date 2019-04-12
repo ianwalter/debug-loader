@@ -1,6 +1,6 @@
 module.exports = {
   mode: 'development',
-  entry: './example',
+  entry: './tests/fixtures/example.js',
   module: {
     rules: [
       {
