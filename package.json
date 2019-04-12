@@ -1,28 +1,39 @@
 {
-  "name": "debug-loader",
+  "name": "@ianwalter/debug-loader",
   "version": "0.0.2",
   "description": "A Webpack loader that logs source to your console for debugging purposes.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js tests",
+    "example": "webpack",
+    "test": "bff"
+  },
+  "author": "Ian Kennington Walter <public@iankwalter.com>",
+  "license": "SEE LICENSE IN LICENSE",
   "homepage": "https://github.com/ianwalter/debug-loader",
   "repository": {
     "type": "git",
     "url": "git@github.com:ianwalter/debug-loader.git"
   },
-  "main": "index.js",
-  "scripts": {
-    "build:example": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
-    "babel-preset-env": "^1.6.1",
-    "loader-utils": "^0.2.12",
-    "uglifyjs-webpack-plugin": "^1.2.2"
+    "@ianwalter/print": "^2.1.0",
+    "loader-utils": "^0.2.12"
   },
-  "author": "Ian Kennington Walter <public@iankwalter.com>",
-  "license": "MIT",
   "devDependencies": {
+    "@ianwalter/bff": "^2.8.0",
+    "@ianwalter/callback-loader": "^1.0.1",
+    "@ianwalter/eslint-config": "^1.1.2",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
+    "execa": "^1.0.0",
+    "np": "^4.0.2",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@ianwalter"
+    ]
   }
 }

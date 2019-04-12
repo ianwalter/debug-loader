@@ -1,12 +1,13 @@
-# debug-loader
-A Webpack loader that logs source to your console for debugging purposes.
+# @ianwalter/debug-loader
+> A [Webpack][webpackUrl] loader that logs source to your console for debugging
+> purposes
+
+[![npm page][npmImage]][npmUrl]
 
 ## Installation
 
-Install via NPM:
-
-```
-npm install debug-loader --save-dev
+```console
+yarn add @ianwalter/debug-loader --dev
 ```
 
 ## Usage
@@ -21,8 +22,17 @@ You can also specify an `id` query option to tag the output:
 
 ```js
 'css!debug?id=SASS!sass'
-```  
+```
+
+
+## License
+
+Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 
 &nbsp;
 
-Created by [Ian Kennington Walter](http://iankwalter.com)
+Created by [Ian Walter](https://iankwalter.com)
+
+[npmImage]: https://img.shields.io/npm/v/@ianwalter/debug-loader.svg
+[npmUrl]: https://www.npmjs.com/package/@ianwalter/debug-loader
+[licenseUrl]: https://github.com/ianwalter/debug-loader/blob/master/LICENSE
