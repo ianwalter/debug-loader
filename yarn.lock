@@ -120,12 +120,12 @@
     to-fast-properties "^2.0.0"
 
 "@ianwalter/bff@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-2.8.0.tgz#9a06226a4564f8726759e82dd6609c199dc47fb5"
-  integrity sha512-YU6AqaNGick0uGBtRj3qggDj/YSaGI1uUyKUI2b1oCom9lpxgFyboCECEfaatF0L33VWJB6J1NteifS96ZN8WA==
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-2.9.0.tgz#c6616ca74dc53b1114e2c786cac49ecc27847af4"
+  integrity sha512-x2Vvk/mQaaDIEQ4hKSxaaK/2wK858G+YPtDccFxDcqhTqq8F8IT4zFB5nYI5kunpY7D+ROjOFOytZ3B86vtcuA==
   dependencies:
     "@ianwalter/cli" "^1.0.0"
-    "@ianwalter/print" "^2.0.2"
+    "@ianwalter/print" "^2.1.0"
     common-tags "^1.8.0"
     expect "^24.7.1"
     globby "^9.2.0"
@@ -166,16 +166,6 @@
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/log/-/log-3.0.0.tgz#c85f7343e28e98d0a4c872a42e6bdd6d8b302e8d"
   integrity sha512-CAB1LaZUDUvQexuZYXmRhaFrpNqguIwA+ciB8+uvDm9dakNX3H+Yd7VIOisvx/y4GljH2hSrlTfCzhy14/0/YQ==
-
-"@ianwalter/print@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-2.0.2.tgz#f773a1ecac87408f93ff35b98e08a0b5a1d12ffc"
-  integrity sha512-nIiLkO+YHGMsT4PpDLEwOAIJGyIoZYCiTBKbklwaOKN7uOGp+q6scGFjXNzH0u5QAcUqknI8wI9U9BHbHb+gfw==
-  dependencies:
-    "@ianwalter/log" "^3.0.0"
-    chalk "^2.4.2"
-    has-ansi "^3.0.0"
-    has-emoji "^1.0.0"
 
 "@ianwalter/print@^2.1.0":
   version "2.1.0"
