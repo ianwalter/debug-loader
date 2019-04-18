@@ -119,18 +119,19 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@ianwalter/bff@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-2.8.0.tgz#9a06226a4564f8726759e82dd6609c199dc47fb5"
-  integrity sha512-YU6AqaNGick0uGBtRj3qggDj/YSaGI1uUyKUI2b1oCom9lpxgFyboCECEfaatF0L33VWJB6J1NteifS96ZN8WA==
+"@ianwalter/bff@^2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-2.10.0.tgz#ac57ff0dbef86a5ff8b61a6feb82f7f4bd8808b3"
+  integrity sha512-nPMbXthsDMBUwOzIxbsUmP8GC8vr3Ech3Bx9OeVGYkvBRUay7MiNZAIgbMOPjXYFkq/RVFmhE9lx9f0rVOCsVw==
   dependencies:
     "@ianwalter/cli" "^1.0.0"
-    "@ianwalter/print" "^2.0.2"
+    "@ianwalter/print" "^2.3.0"
     common-tags "^1.8.0"
     expect "^24.7.1"
     globby "^9.2.0"
     jest-snapshot "^24.7.1"
     p-series "^2.1.0"
+    p-timeout "^3.1.0"
     workerpool "^3.1.2"
 
 "@ianwalter/callback-loader@^1.0.1":
@@ -167,20 +168,10 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/log/-/log-3.0.0.tgz#c85f7343e28e98d0a4c872a42e6bdd6d8b302e8d"
   integrity sha512-CAB1LaZUDUvQexuZYXmRhaFrpNqguIwA+ciB8+uvDm9dakNX3H+Yd7VIOisvx/y4GljH2hSrlTfCzhy14/0/YQ==
 
-"@ianwalter/print@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-2.0.2.tgz#f773a1ecac87408f93ff35b98e08a0b5a1d12ffc"
-  integrity sha512-nIiLkO+YHGMsT4PpDLEwOAIJGyIoZYCiTBKbklwaOKN7uOGp+q6scGFjXNzH0u5QAcUqknI8wI9U9BHbHb+gfw==
-  dependencies:
-    "@ianwalter/log" "^3.0.0"
-    chalk "^2.4.2"
-    has-ansi "^3.0.0"
-    has-emoji "^1.0.0"
-
-"@ianwalter/print@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-2.1.0.tgz#70c302c579379f7a68c075277df9c2f3605a8d15"
-  integrity sha512-1CtL5nrKo8MqZpZg0htlj52SIa/frMMBLUGH9XUzDdZdxoyIkXgls965MIBjlBnV+Ty3ZHkDGUuCqwIuqD6aeQ==
+"@ianwalter/print@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-2.3.0.tgz#12e2a11ca3e622e98069f1ca824c6edb3f4c47cb"
+  integrity sha512-JBysj0+79suEX/GT14xtuc+3MaaShPvo6U4LFuxsldGRvClYJYfG+c4VqZMJ18TwDYrd3ImVKQ4apKSyAOmVHQ==
   dependencies:
     "@ianwalter/log" "^3.0.0"
     chalk "^2.4.2"
@@ -3957,6 +3948,13 @@ p-timeout@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/p-timeout/-/p-timeout-2.0.1.tgz#d8dd1979595d2dc0139e1fe46b8b646cb3cdf038"
   integrity sha512-88em58dDVB/KzPEx1X0N3LwFfYZPyDc4B6eF38M1rk9VTZMbxXXgjugz8mmwpS9Ox4BDZ+t6t3QP5+/gazweIA==
+  dependencies:
+    p-finally "^1.0.0"
+
+p-timeout@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/p-timeout/-/p-timeout-3.1.0.tgz#198c1f503bb973e9b9727177a276c80afd6851f3"
+  integrity sha512-C27DYI+tCroT8J8cTEyySGydl2B7FlxrGNF5/wmMbl1V+jeehUCzEE/BVgzRebdm2K3ZitKOKx8YbdFumDyYmw==
   dependencies:
     p-finally "^1.0.0"
 

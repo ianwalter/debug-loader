@@ -2,13 +2,11 @@
 
 exports[`debug-loader 1`] = `
 "
-🏁  START ./tests/fixtures/example.js 
-
-    export default () => {
-      console.log('Hello World!')
-    }
- 
-
-🏁  END ./tests/fixtures/example.js
+🏁  [1mSTART[22m ./tests/fixtures/example.js 
+    [1mexport default () => {[22m
+[1m      console.log('Hello World!')[22m
+[1m    }[22m
+[1m[22m 
+🏁  [1mEND[22m ./tests/fixtures/example.js
 "
 `;
